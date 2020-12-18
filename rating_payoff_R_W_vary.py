@@ -12,12 +12,12 @@ start = time.perf_counter()
 
 # Create the CSV file with parameters and payoffs
 
-filename = 'payoff_R_W_vary.csv'
+filename = 'payoff_R_W_vary_N100000.csv'
 file_exists = os.path.isfile(filename)
 
 # N is the number of times the experiment is run
 
-N = 10000
+N = 100000
 
 
 # generate parameters for the game
